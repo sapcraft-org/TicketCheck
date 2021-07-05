@@ -47,9 +47,9 @@ module.exports = {
 					'\u200b',
 				])
 				.addField('<:documents:773950876347793449> System ❯', [
-					`> **<:online:745651877382717560> Uptime: ${parseDur(client.uptime)}**`,
-					`> **<:nodejs:773599989724348448> Node.js: \`${process.version}\`**`,
-					`> **<:djs:773599989833400371> Discord.js: \`v${djsversion}\`**`,
+					`> ** Total uptime: ${parseDur(client.uptime)}**`,
+					`> ** Node.js version: \`${process.version}\`**`,
+					`> ** Discord.js version: \`v${djsversion}\`**`,
 					`> **\\🖥 Platform: \`${formatOS[os.platform]}\`**`,
 					`> **\\📊 Memory: \`${formatBytes(process.memoryUsage().heapUsed)} / ${formatBytes(process.memoryUsage().heapTotal)}\`**`,
 					`> **\\💻 CPU: \`${os.cpus()[0].model.split('CPU')[0]}${os.cpus().length} Cores ${os.cpus()[0].model.split('CPU ')[1]}\`**`,
