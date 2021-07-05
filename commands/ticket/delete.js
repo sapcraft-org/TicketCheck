@@ -11,7 +11,7 @@ module.exports = {
 			message.channel.delete();
 		}
 		else {
-			return message.reply('you cannot use this command here. Please use this command when you want to delete a ticket.');
+			return message.reply('you cant use it here please use it on specified chanels.');
 		}
 	},
 };
